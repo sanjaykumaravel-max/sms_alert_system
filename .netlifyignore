@@ -1,0 +1,26 @@
+# Ignore Python files and directories to prevent Netlify from attempting Python builds
+*.py
+__pycache__/
+*.pyc
+src/
+tests/
+requirements*.txt
+pyproject.toml
+Makefile
+alembic/
+scripts/
+build/
+dist/
+.venv/
+pytest.ini
+pytest_temp_run/
+pytest_work_tmp_20260414/
+temp_doc_check/
+temp_doc_check_final/
+docs/
+installer/
+logs/
+releases/
+assets/
+data/
+tools/
