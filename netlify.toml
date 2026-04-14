@@ -1,6 +1,7 @@
 [build]
 publish = "netlify_site"
 command = "true"
+skip_dependency_installation = true
 
 [[redirects]]
 from = "/*"
