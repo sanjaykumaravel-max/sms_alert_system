@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOW-COST MAINTENANCE MANAGEMENT SOFTWARE FOR SMALL SCALE MINES</title>
+    <meta
+      name="description"
+      content="Automated maintenance alerts, machine due tracking, and SMS escalation for small-scale mining operations."
+    />
+    <style>
+      :root {
+        --bg: #070d1a;
+        --card: #0f172a;
+        --muted: #94a3b8;
+        --text: #e2e8f0;
+        --accent: #0ea5e9;
+        --accent-2: #14b8a6;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: "Segoe UI", "Trebuchet MS", sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(1200px 600px at 20% -10%, rgba(14, 165, 233, 0.25), transparent),
+          radial-gradient(1000px 500px at 90% 10%, rgba(20, 184, 166, 0.2), transparent),
+          var(--bg);
+      }
+      .wrap { max-width: 1040px; margin: 0 auto; padding: 28px 18px 56px; }
+      .hero {
+        background: linear-gradient(135deg, #0f172a, #0b2441, #114a62);
+        border: 1px solid #1e293b;
+        border-radius: 18px;
+        padding: 24px;
+        box-shadow: 0 18px 50px rgba(2, 8, 23, 0.45);
+      }
+      h1 { margin: 0 0 8px; font-size: 30px; line-height: 1.18; }
+      .sub { color: #bfdbfe; margin: 0; font-size: 16px; }
+      .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 18px; }
+      .btn {
+        display: inline-block;
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 11px 16px;
+        font-weight: 700;
+        border: 1px solid transparent;
+      }
+      .btn.primary { background: var(--accent); color: #04111f; }
+      .btn.secondary { background: transparent; color: #bae6fd; border-color: #0ea5e9; }
+      .grid {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 12px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid #1e293b;
+        border-radius: 14px;
+        padding: 14px;
+      }
+      .card h3 { margin: 0 0 8px; font-size: 16px; color: #7dd3fc; }
+      .card p { margin: 0; color: var(--muted); line-height: 1.5; font-size: 14px; }
+      .note {
+        margin-top: 16px;
+        background: rgba(20, 184, 166, 0.08);
+        border: 1px solid rgba(20, 184, 166, 0.3);
+        border-radius: 12px;
+        padding: 12px;
+        color: #99f6e4;
+      }
+      code {
+        background: #111827;
+        border: 1px solid #1f2937;
+        border-radius: 6px;
+        padding: 2px 6px;
+        color: #cbd5e1;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="hero">
+        <h1>LOW-COST MAINTENANCE MANAGEMENT SOFTWARE FOR SMALL SCALE MINES</h1>
+        <p class="sub">
+          Professional maintenance automation for mining operations with machine due tracking,
+          runtime thresholds, and automatic SMS escalation.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="./downloads/MiningMaintenanceSystem_Portable.zip">Download Desktop App (.zip)</a>
+          <a class="btn secondary" href="./report/PROJECT_REVIEW_REPORT_6_CHAPTERS.html">Open Project Report</a>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h3>Automated Alerts</h3>
+          <p>
+            Sends due and overdue SMS automatically from live machine data using date-based and
+            hour-based rules.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Escalation Flow</h3>
+          <p>
+            Built-in stage flow: Operator -> Supervisor -> Manager with dedup and cooldown logic.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Admin Controls</h3>
+          <p>
+            Role-based settings, audit export, backups, and scheduler controls for production use.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Field-Focused UI</h3>
+          <p>
+            Mine setup, machine registry, maintenance history, checklist workflow, and live status dashboards.
+          </p>
+        </article>
+      </section>
+
+      <section class="note">
+        If the download button shows 404, upload your latest desktop zip into
+        <code>netlify_site/downloads/MiningMaintenanceSystem_Portable.zip</code> before deploying.
+      </section>
+    </main>
+  </body>
+</html>

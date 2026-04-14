@@ -1,0 +1,60 @@
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.venv_windowsapps_backup_20260329/
+
+# Secrets and env
+.env
+*.env
+!.env.example
+
+# Local runtime data and logs
+logs/
+*.log
+app.log
+run.log
+server.log
+server8001.log
+sms_alert.db
+data/
+
+# Build and packaged artifacts
+build/
+build_portable/
+dist/
+dist_portable/
+releases/
+installer/*.exe
+*.spec.bak
+*.exe
+*.zip
+
+# Temp folders
+.tmp_pytest/
+.tmp_pytest_env/
+.pytest_tmp/
+.pytest_tmp_run/
+.pytest_tmp_run_local/
+pytest_temp_run/
+temp_doc_check/
+temp_doc_check_final/
+.smoke_runtime/
+tests/.runtime_tmp/
+
+# Editor / tooling
+.vscode/
+.idea/
+.netlify
+scripts/build/
+scripts/dist/
+netlify_site/downloads/
